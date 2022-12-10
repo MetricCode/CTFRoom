@@ -6,7 +6,7 @@
 To start of the challenge, lets download the bin file that were given...
 <br>
 <br>
-After running the ** _file_** command on the file after unzipping, we can see that the bin file is further compressed..
+After running the **_file_** command on the file after unzipping, we can see that the bin file is further compressed..
 <br>
 <br>
 On running the __**binwalk**__ command on the file, we can see that it's indeed compressed..
@@ -19,6 +19,7 @@ On moving into the extracted directory, we find some system files from the route
 ![Screenshot_2022-12-10_00_38_20](https://user-images.githubusercontent.com/99975622/206877508-d62716c8-d502-4749-b7a9-341bfce6b622.png)
 
 After looking arround the directories, we find some creds in the etc directory....
+<br>
 <br>Also with reference from some site, you can find saved passwords from a connected network(TP_Link based networks...) from the command line via the /etc directory of the system's files....
 ```
 https://ostechnix.com/find-wifi-password-of-connected-networks-in-linux/
@@ -39,3 +40,8 @@ And boom!
 we've got our flag...
 ![Screenshot_2022-12-10_00_36_14](https://user-images.githubusercontent.com/99975622/206877864-7ea6c29f-b699-4f27-8c97-a4961fdf4c1e.png)
 
+**ccke{pass}**
+
+## My socials:
+<br>@ twitter: https://twitter.com/M3tr1c_root
+<br>@ instagram: https://instagram.com/m3tr1c_r00t/
